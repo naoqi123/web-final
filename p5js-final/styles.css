@@ -5,9 +5,9 @@ html {
 body {
 
   font-family: "Didact Gothic", sans-serif;
-  background-color:
+  background-color:rgb(0, 0, 0);
   color: #ffffff;
-  background-image: url("img/008.gif");
+  /*background-image: url("img/008.gif");*/
 }
 .wrapper {
 }
