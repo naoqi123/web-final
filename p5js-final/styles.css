@@ -1,0 +1,85 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+
+  font-family: "Didact Gothic", sans-serif;
+  background-color:
+  color: #ffffff;
+  background-image: url("img/008.gif");
+}
+.wrapper {
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.container {
+  padding: 1rem;
+}
+
+.section-container {
+  padding: 7rem 1rem;
+  padding-bottom: 2rem;
+  min-height: 400px;
+}
+
+
+
+.hero {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 600px) {
+  .hero h1 {
+    color: #fff;
+    font-size: 6rem;
+  }
+}
+
+
+.contact container {
+  max-width: 170%;
+  margin: 2rem auto;
+  justify-content: center;
+  color:#fff;
+
+}
+@media screen and (min-width: 700px) {
+}
+
+
+.footer-container {
+  margin: 0 auto;
+  color:#ffffff;
+  
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .footer-container {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+
+  
